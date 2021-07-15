@@ -1,0 +1,28 @@
+body{
+	background-color: #FFC93C;
+}
+@font-face{
+	font-family: digital-7;
+	src: url(fonts/digital-7.ttf);
+}
+.box,.clock{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%)translateY(-50%);
+}
+.box{
+	height:100px;
+	width:360px;
+	border-radius: 10px;
+	background-color:#171717;
+	border: 10px solid #FC5404;
+	box-shadow: 0px 0px 15px #185ADB;
+}
+.clock{
+	color: #EDEDED;
+	font-size: 4.5rem;
+	font-family: digital-7;
+	text-align: center;
+	text-shadow: 0px 0px 15px #185ADB;
+}
